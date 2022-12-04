@@ -1,0 +1,23 @@
+int num_points = npoints(0);
+int attrib_success = 0;
+
+for (int all_points = 0; all_points < num_points; all_points++)
+{
+    int array_size = pointattribsize(0, "connectionStrengths");
+    
+    int weight_list[] = point(0, "connectionStrengths", all_points); 
+    int array_column = weight_list[all_points];
+    
+    float combined_weights[]; // an array to put every weight in for each point: [4,3,0,0,0...}
+    
+    //loop through the columns of the weight_list and add values into an array
+    for(int weights = 0; weights < array_size; weights++)
+    {
+        float normalised_weights = fit(weight_list[weights], 0, 5, 0, 1);
+        append(combined_weights, normalised_weights);
+    }
+    
+    setpointattrib(0, "combinedWeights", all_points, combined_weights, "set");
+    
+    //setpointattrib(0, "attrTest", all_points, array_column, "set");
+}

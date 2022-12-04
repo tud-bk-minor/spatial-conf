@@ -1,0 +1,11 @@
+//Constraint Lable
+s@constraint_name = "ConRelcls" ;
+
+//Restlength Calculation
+int ends[] = primpoints(0, @primnum);
+float rad0 = point(0, "pscale", ends[0]);
+float rad1 = point(0, "pscale", ends[1]);
+@restlength = rad0 + rad1;
+
+//Setting the Spring Strength
+f@strength = f@weight;

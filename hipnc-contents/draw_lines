@@ -1,0 +1,17 @@
+int num_points = npoints(0);
+
+for(int all_points = 0; all_points < num_points; all_points++)
+{
+    int connection_list[] = point(0, "newConnectionList", all_points); 
+    
+    foreach(int connection; connection_list)
+    {
+            
+        int startpoint = all_points;
+        int endpoint = connection;
+        
+        addprim(0, "polyline", startpoint, endpoint);
+        
+    }
+   
+}

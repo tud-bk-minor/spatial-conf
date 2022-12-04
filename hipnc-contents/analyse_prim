@@ -1,0 +1,7 @@
+int num_prims = nprimitives(0);
+
+for(int all_prims = 0; all_prims < num_prims; all_prims++)
+{
+    int points_in_prim[] = primpoints(geoself(), all_prims);
+    setprimattrib(geoself(), "pointsInPrim", all_prims, points_in_prim, "set");
+}

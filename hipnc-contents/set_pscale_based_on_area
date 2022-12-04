@@ -1,0 +1,11 @@
+int num_points = npoints(0);
+float multiplier = chf("multiplier");
+
+for (int all_points = 0; all_points < num_points; all_points++)
+{
+    float function_area = point(0, "Area", all_points);
+    float graph_weight = point(0,"graphAreaWeight", all_points);
+    float sphere_scale = sqrt(function_area) / multiplier;    
+    setpointattrib(0, "pscale", all_points, sphere_scale, "set");  
+        
+}
