@@ -1,20 +1,19 @@
-int num_points = npoints(0);
+int numberOfPoints = npoints(0);
 
-for(int all_points = 0; all_points < num_points; all_points++)
+for(int i = 0; i < numberOfPoints; i++)
 {
+    string indexConnections = point(2, "indexConnections", i); 
+    printf("%s", indexConnections);
+    // string connectionsList[] = split(indexConnections,",");
     
-    string indexConnections = point(0, "indexConnections", all_points); 
+    // int num_connections = len(connectionsList);
     
-    string connectionsList[] = split(indexConnections,",");
+    // int intList[];
     
-    int num_connections = len(connectionsList);
+    // for(int j = 0; j < num_connections; j++)
+    // {
+    //     append(intList, atoi(connectionsList[j]));
+    // }
     
-    int intList[];
-    
-    for(int Connection = 0; Connection < num_connections; Connection++)
-    {
-        append(intList, atoi(connectionsList[Connection]));
-    }
-    
-    setpointattrib(0, "newConnectionList", all_points, intList, "set");
+    // setpointattrib(0, "newConnectionList", i, intList, "set");
 }
