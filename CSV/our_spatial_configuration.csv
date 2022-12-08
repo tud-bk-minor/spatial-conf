@@ -1,17 +1,17 @@
 Point X,Point Z,Point Y adjusted,Index,Connection Indices,Cluster,Location,Area,graphAreaWeight,Flatness,Blockiness,ID,
-0,0,0,0,"4,5,6",2,Elderly units,625,1,0,0,0,Elderly units
-0,0,0,1,"2,15",1,Student units,625,1,0.1,0.1,1,Student units
-0,0,0,2,"1,9",1,Starter units,625,1,0.2,0.2,2,Assisted_housing
-0,0,0,3,"4,5,6",2,Co-livingroom (elderly),625,1,0.3,0.3,3,Co-livingroom (elderly)
-0,0,0,4,"3,5,6",2,Co-gardening,625,1,0.4,0.4,4,Co-gardening
-0,0,0,5,"2,3,6",2,Elderly care centre,625,1,0.5,0.5,5,Elderly care centre
-0,0,0,6,"3,4,5",2,NOF establishment,625,1,0.6,0.6,6,NOF establishment
-0,0,0,7,"14,15",3,"Workspaces (3 types, atlier etc.)",625,1,0.7,0.7,7,"Workspaces (3 types, atlier etc.)"
-0,0,0,8,"11,12,13",5,Parking (shared mobility),625,1,0.8,0.8,8,Parking (shared mobility)
-0,0,0,9,"1,10",4,Day care,625,1,0.9,0.9,9,Day care
-0,0,0,10,"1,9",4,Playground (In- & Outside),625,1,1,1,10,Playground (In- & Outside)
-0,0,0,11,"12,13,8",5,Spa/gym,625,1,1.1,1.1,11,Spa/gym
-0,0,0,12,"11,13,8,3",5,Entrance lounge,625,1,1.2,1.2,12,Entrance lounge
-0,0,0,13,"11,12,8",5,Supermarket,625,1,1.3,1.3,13,Supermarket
-0,0,0,14,"7,15,1",3,Cafe + restaurant,625,1,1.4,1.4,14,Cafe + restaurant
-0,0,0,15,"7,14",3,Library,625,1,1.5,1.5,15,Library
+0,0,0,0,"4,5,6",2,Elderly units,100,1,0,0,0,Elderly units
+0,0,0,1,"2,15",1,Student units,200,1,0.1,0.1,1,Student units
+0,0,0,2,"1,9",1,Starter units,300,1,0.2,0.2,2,Assisted_housing
+0,0,0,3,"4,5,6",2,Co-livingroom (elderly),400,1,0.3,0.3,3,Co-livingroom (elderly)
+0,0,0,4,"3,5,6",2,Co-gardening,500,1,0.4,0.4,4,Co-gardening
+0,0,0,5,"2,3,6",2,Elderly care centre,600,1,0.5,0.5,5,Elderly care centre
+0,0,0,6,"3,4,5",2,NOF establishment,700,1,0.6,0.6,6,NOF establishment
+0,0,0,7,"14,15",3,"Workspaces (3 types, atlier etc.)",800,1,0.7,0.7,7,"Workspaces (3 types, atlier etc.)"
+0,0,0,8,"11,12,13",5,Parking (shared mobility),900,1,0.8,0.8,8,Parking (shared mobility)
+0,0,0,9,"1,10",4,Day care,1000,1,0.9,0.9,9,Day care
+0,0,0,10,"1,9",4,Playground (In- & Outside),1100,1,1,1,10,Playground (In- & Outside)
+0,0,0,11,"12,13,8",5,Spa/gym,1200,1,1.1,1.1,11,Spa/gym
+0,0,0,12,"11,13,8,3",5,Entrance lounge,1300,1,1.2,1.2,12,Entrance lounge
+0,0,0,13,"11,12,8",5,Supermarket,1400,1,1.3,1.3,13,Supermarket
+0,0,0,14,"7,15,1",3,Cafe + restaurant,1500,1,1.4,1.4,14,Cafe + restaurant
+0,0,0,15,"7,14",3,Library,1600,1,1.5,1.5,15,Library
